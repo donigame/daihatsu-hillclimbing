@@ -90,7 +90,7 @@ body{
 #progressBar{
 	height:8vh;
 	color:#666666;
-	font-size:4vh;
+	font-size:1vh;
 }
 
 #warningBrowserBlock,#warningMobileBlock,#errorContent{
