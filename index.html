@@ -24,7 +24,18 @@
 				element.msRequestFullscreen).call(element);
 			}
 			else {
-				
+				/*
+				document.getElementById("fullScreenButton").style.backgroundImage="url('TemplateData/img/fullScreen_on.png')";
+				if (document.exitFullscreen) {
+					document.exitFullscreen();
+				} else if (document.webkitExitFullscreen) {
+					document.webkitExitFullscreen();
+				} else if (document.mozCancelFullScreen) {
+					document.mozCancelFullScreen();
+				} else if (document.msExitFullscreen) {
+					document.msExitFullscreen();
+				}
+				*/
 			}
 		}
 		
@@ -59,7 +70,7 @@
 			}	
 		}
 		
-		var gameInstance = UnityLoader.instantiate("gameContainer", "Build/tes.json", {
+		var gameInstance = UnityLoader.instantiate("gameContainer", "Build/v0.0.json", {
 			onProgress: UnityProgress,
 			compatibilityCheck:CheckCompatibility,
 			Module: {
@@ -81,9 +92,6 @@
 		
 		<div id="loadingBlock">
 			<img class="logo" src="TemplateData/img/Logo.png"></img>
-			<span class="subtitle"> CATCHPHRASE <br>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-			</span>
 			
 			<div id="progressBar">
 				<div>LOADING ...</div>
@@ -105,7 +113,7 @@
 			</div>
 			<div id="warningMobileBlock" style="display:none;">
 				<div class="warningBrowserText">
-					Please note that Unity WebGL is not currently supported on mobiles.
+					Tip : For more experience please fullscreen your browser using button on top left and rotating your mobile
 				</div>
 			</div>
 			
