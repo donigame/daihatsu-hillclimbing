@@ -7,7 +7,7 @@ body{
 	background-size:cover;
 	font-style: regular;
 	font-family:"Myriad Pro", Myriad,"Helvetica Neue", Helvetica, Arial, sans-serif;
-	background-color:#f0f0f1;
+	background-color:##c1c1c1;
 }
 
 .webgl-content,#loadingBlock,#errorBrowserBlock{
@@ -90,7 +90,7 @@ body{
 #progressBar{
 	height:8vh;
 	color:#666666;
-	font-size:1vh;
+	font-size:2vh;
 }
 
 #warningBrowserBlock,#warningMobileBlock,#errorContent{
